@@ -9,6 +9,6 @@ public class HomeController {
 
 	@GetMapping("/")
 	public String getUserName(@RequestParam String param) {
-	return "안녕하세요";
+	return "좋은아침 입니다.";
 }
 }	
